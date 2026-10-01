@@ -1,0 +1,23 @@
+{
+  "name": "file-upload-api",
+  "version": "1.0.0",
+  "description": "File Uploads API with Express and Multer",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node --env-file=.env src/server.js",
+    "dev": "nodemon --exec \"node --env-file=.env\" src/server.js",
+    "test": "node --test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1",
+    "file-type": "^22.1.1",
+    "multer": "^2.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
